@@ -22,10 +22,9 @@ font-family: 'Fredoka', sans-serif;
     margin-bottom: 30px;
 }
 .mg-p{
-    margin-top: ;
     margin-right: 300px;
     margin-left: 300px;
-    margin-bottom: ;
+    
 
 }
 .text{
@@ -34,9 +33,29 @@ font-family: 'Fredoka', sans-serif;
 .container-flex{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    flex-direction:row ;
+    align-content: center;
+    justify-content: space-between;
+    gap: 20px;
+
 }
 .bg-white{
     color: white;
+}
+.card{
+    display: flex;
+    background-color: #0F0E17;
+    width: 30%;
+    height: ;
+    align-items: space-between;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.misure{
+    width: 100px;
+    height: 100px;
+}
+.cardtext{
+    margin-right: -10px;
 }
