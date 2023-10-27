@@ -5,6 +5,29 @@
     box-sizing: border-box;
 font-family: 'Fredoka', sans-serif;
 }
-.bg-red{
+.bg-blue{
     background-color: #0F0E17;
+}
+
+.bg-red{
+    color:#E53170;
+}
+.bg-light-blue{
+    background-color: ;
+}
+.mg{
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 600px;
+    margin-bottom: 30px;
+}
+.mg-p{
+    margin-top: ;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: ;
+
+}
+.text{
+    text-align:center
 }
