@@ -13,7 +13,7 @@ font-family: 'Fredoka', sans-serif;
     color:#E53170;
 }
 .bg-light-blue{
-    background-color: ;
+    color: #0093E7
 }
 .mg{
     margin-top: 50px;
@@ -30,4 +30,13 @@ font-family: 'Fredoka', sans-serif;
 }
 .text{
     text-align:center
+}
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction:row ;
+}
+.bg-white{
+    color: white;
 }
