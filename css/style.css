@@ -16,14 +16,13 @@ font-family: 'Fredoka', sans-serif;
     color: #0093E7
 }
 .mg{
+    text-align: center;
     margin-top: 50px;
-    margin-right: 150px;
-    margin-left: 600px;
     margin-bottom: 30px;
 }
 .mg-p{
-    margin-right: 300px;
-    margin-left: 300px;
+    text-align: center;
+    margin-bottom: 20px;
     
 
 }
@@ -33,9 +32,10 @@ font-family: 'Fredoka', sans-serif;
 .container-flex{
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    align-content:;
     justify-content: space-between;
     gap: 20px;
+    text-align: center;
 
 }
 .bg-white{
@@ -44,11 +44,11 @@ font-family: 'Fredoka', sans-serif;
 .card{
     display: flex;
     background-color: #0F0E17;
-    width: 30%;
-    height: ;
+    width: 25%;
     align-items: space-between;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-top: 20px;
+    text-align: left;
     
 }
 
@@ -57,5 +57,20 @@ font-family: 'Fredoka', sans-serif;
     height: 100px;
 }
 .cardtext{
-    margin-right: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+main{
+    width: 90%;
+    margin:0 auto;
+   
+
+    padding: 40px;
+
+}
+.box-shadow{
+    -moz-box-shadow:  10px  10px 5px #dedede;
+  -webkit-box-shadow:  10px  10px 5px #dedede;
 }
